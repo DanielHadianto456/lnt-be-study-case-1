@@ -27,6 +27,17 @@ header {
   justify-content: space-between;
 }
 
+header nav {
+  display: flex;
+  gap: 1.75rem;
+}
+
+header a {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  text-decoration: none;
+}
+
 .header-logo {
   width: 2rem;
 }
