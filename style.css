@@ -8,6 +8,7 @@
   --text-3xl: 1.875rem;
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
 
   --font-thin: 100;
   --font-extralight: 200;
@@ -37,7 +38,7 @@ header nav {
 }
 
 header a {
-  font-size: var(--text-sm);
+  font-size: var(--text-lg);
   font-weight: var(--font-medium);
   text-decoration: none;
 }
@@ -53,7 +54,7 @@ header a {
 
 .header-title {
   margin-left: 0.5rem;
-  font-size: var(--text-xs);
+  font-size: var(--text-base);
   font-weight: var(--font-medium);
   line-height: 1;
 }
@@ -66,6 +67,7 @@ header .contact-pill {
   border-style: solid;
   border-radius: 2rem;
   border-width: 0.1rem;
+  font-size: var(--text-base);
 }
 
 header .phone-number {
@@ -86,7 +88,7 @@ main .hero-section {
 }
 
 main .hero-section h1 {
-  font-size: var(--text-5xl);
+  font-size: var(--text-6xl);
   color: #1C1F21;
   margin: 0;
   font-weight: var(--font-extrabold);
@@ -94,7 +96,7 @@ main .hero-section h1 {
 
 
 main .hero-section h2 {
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
   color: #1C1F21;
   margin: 0;
   font-weight: var(--font-base);
