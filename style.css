@@ -98,3 +98,11 @@ main .hero-section h2 {
   margin: 0;
   font-weight: var(--font-base);
 }
+
+main .hero-section img {
+  margin-top: 2rem;
+  width: 80vw;
+  height: 65vh;
+  border-radius: 2rem;
+  object-fit: cover;
+}
