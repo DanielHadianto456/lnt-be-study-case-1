@@ -86,4 +86,14 @@ main .hero-section {
 main .hero-section h1 {
   font-size: var(--text-5xl);
   color: #1C1F21;
+  margin: 0;
+  font-weight: var(--font-extrabold);
+}
+
+
+main .hero-section h2 {
+  font-size: var(--text-xl);
+  color: #1C1F21;
+  margin: 0;
+  font-weight: var(--font-base);
 }
