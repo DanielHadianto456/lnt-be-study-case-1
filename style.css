@@ -53,3 +53,21 @@ header a {
   font-weight: var(--font-medium);
   line-height: 1;
 }
+
+header .contact-pill {
+  cursor: pointer;
+  display: flex;
+  gap: 0.3rem;
+  padding: 0.5rem;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.1rem;
+}
+
+header .phone-number {
+  font-size: var(--text-xs);
+}
+
+header .phone-logo {
+  width: 1rem;
+}
