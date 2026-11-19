@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 2rem;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-left: 1rem;
+}
