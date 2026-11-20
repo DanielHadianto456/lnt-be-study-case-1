@@ -159,7 +159,11 @@ footer .wrapper .item-wrapper .label {
   margin-bottom: 0.75rem;
 }
 
-footer .item {
+footer .wrapper .item {
+
+}
+
+footer .item-wrapper .with-image {
   display: flex;
   gap: 0.5rem;
 }
