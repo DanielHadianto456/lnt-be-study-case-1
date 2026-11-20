@@ -43,6 +43,10 @@ header a {
   text-decoration: none;
 }
 
+header a:visited {
+  color: black;
+}
+
 .header-logo {
   width: 2rem;
 }
