@@ -146,6 +146,18 @@ footer .wrapper {
   align-items: flex-start;
 }
 
+footer .wrapper .item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+footer .wrapper .item-wrapper .label {
+  font-size: var(--text-xl);
+  font-weight: var(--font-medium);
+  margin-bottom: 0.5rem;
+}
+
 footer .item {
   display: flex;
   gap: 0.5rem;
