@@ -159,13 +159,17 @@ footer .wrapper .item-wrapper .label {
   margin-bottom: 0.75rem;
 }
 
-footer .wrapper .item {
-
-}
-
-footer .item-wrapper .with-image {
+footer .wrapper .item-wrapper .with-image {
   display: flex;
   gap: 0.5rem;
+}
+
+footer .wrapper .item-wrapper a {
+  text-decoration: none;
+}
+
+footer .wrapper .item-wrapper a:visited {
+  color: #1C1F21;
 }
 
 footer .item img {
