@@ -41,6 +41,14 @@ header a {
   text-decoration: none;
 }
 
+header hr {
+  border: none;
+  height: 0.075rem;
+  color: #1C1F21;
+  background-color: #1C1F21;
+  opacity: 15%;
+}
+
 header a:visited {
   color: black;
   color: #1C1F21;
