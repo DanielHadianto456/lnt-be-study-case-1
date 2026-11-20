@@ -28,8 +28,6 @@ body {
 
 header {
   padding: 0.75rem 4rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 header nav {
@@ -43,8 +41,17 @@ header a {
   text-decoration: none;
 }
 
+header hr {
+  border: none;
+  height: 0.075rem;
+  color: #1C1F21;
+  background-color: #1C1F21;
+  opacity: 15%;
+}
+
 header a:visited {
   color: black;
+  color: #1C1F21;
 }
 
 .header-logo {
@@ -61,6 +68,13 @@ header a:visited {
   font-size: var(--text-base);
   font-weight: var(--font-medium);
   line-height: 1;
+}
+
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #1C1F21;
+  margin-bottom: 1rem;
 }
 
 header .contact-pill {
