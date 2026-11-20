@@ -140,8 +140,17 @@ footer hr {
   opacity: 15%;
 }
 
-footer .footer-wrapper {
+footer .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
+}
+
+footer .item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+footer .item img {
+  width: 1.25rem;
 }
