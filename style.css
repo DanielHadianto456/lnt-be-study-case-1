@@ -144,7 +144,7 @@ footer .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 2.75rem 0;
+  margin: 2.75rem 8rem;
 }
 
 footer .wrapper .item-wrapper {
