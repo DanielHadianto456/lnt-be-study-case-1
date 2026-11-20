@@ -30,6 +30,7 @@ header {
   padding: 0.75rem 4rem;
   display: flex;
   justify-content: space-between;
+  color: #1C1F21;
 }
 
 header nav {
@@ -45,6 +46,7 @@ header a {
 
 header a:visited {
   color: black;
+  color: #1C1F21;
 }
 
 .header-logo {
