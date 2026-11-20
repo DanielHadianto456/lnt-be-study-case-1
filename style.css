@@ -66,6 +66,7 @@ header .header-wrapper {
   display: flex;
   justify-content: space-between;
   color: #1C1F21;
+  margin-bottom: 1rem;
 }
 
 header .contact-pill {
