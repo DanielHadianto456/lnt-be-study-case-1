@@ -139,3 +139,9 @@ footer hr {
   background-color: #1C1F21;
   opacity: 15%;
 }
+
+footer .footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
