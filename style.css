@@ -133,10 +133,38 @@ main .menu {
   justify-content: center;
 }
 
+main .menu .item {
+  width: 70vw;
+}
+
 main .menu .item h2 {
   color: #1C1F21;
   font-size: var(--text-3xl);
   font-weight: var(--font-semibold);
+}
+
+main .menu .item table {
+  border-spacing: 1.25rem 0;
+  border-collapse: separate;
+  width: 100%;
+}
+
+main .menu .item td {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2.5px;
+  border-style: dotted;
+  border-color: #1C1F21;
+}
+
+main .menu .item td div {
+  display: flex;
+  align-items: center;
+}
+
+main .menu .item td img {
+  width: 4rem;
 }
 
 footer {
