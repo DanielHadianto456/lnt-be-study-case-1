@@ -127,6 +127,18 @@ main .hero-section img {
   object-fit: cover;
 }
 
+main .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .menu .item h2 {
+  color: #1C1F21;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-semibold);
+}
+
 footer {
   padding: 0.75rem 4rem;
   color: #1C1F21;
