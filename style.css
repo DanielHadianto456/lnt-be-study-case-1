@@ -189,6 +189,7 @@ main .menu .item td .product .details .text-wrapper h3, p {
 }
 
 main .menu .item td .product .details img {
+  aspect-ratio: 1;
   width: 7rem;
   height: 7rem;
   object-fit: cover;
