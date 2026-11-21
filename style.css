@@ -127,6 +127,77 @@ main .hero-section img {
   object-fit: cover;
 }
 
+main .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 0 8rem 0;
+}
+
+main .menu .item {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+main .menu .item h2 {
+  color: #1C1F21;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-semibold);
+}
+
+main .menu .item table {
+  border-spacing: 3rem 0;
+  border-collapse: separate;
+  width: 100%;
+}
+
+main .menu .item td {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2.5px;
+  border-style: dotted;
+  border-color: #1C1F2145;
+  padding: 1.5rem 0;
+  width: 100vw;
+}
+
+main .menu .item td .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+main .menu .item td .product .price {
+  font-weight: var(--font-medium);
+}
+
+main .menu .item td .product .details {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 85%;
+}
+
+main .menu .item td .product .details .text-wrapper h3, p {
+  margin: 0;
+}
+
+main .menu .item td .product .details img {
+  aspect-ratio: 1;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 footer {
   padding: 0.75rem 4rem;
   color: #1C1F21;
