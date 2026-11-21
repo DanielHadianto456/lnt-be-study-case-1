@@ -132,17 +132,17 @@ main .menu {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin: 2rem 0 8rem 0;
 }
 
 main .menu .item {
-  width: 70vw;
+  width: 75vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 main .menu .item h2 {
@@ -152,7 +152,7 @@ main .menu .item h2 {
 }
 
 main .menu .item table {
-  border-spacing: 2rem 0;
+  border-spacing: 3rem 0;
   border-collapse: separate;
   width: 100%;
 }
@@ -164,7 +164,7 @@ main .menu .item td {
   border-bottom: 2.5px;
   border-style: dotted;
   border-color: #1C1F21;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   width: 100vw;
 }
 
@@ -181,8 +181,8 @@ main .menu .item td .product .price {
 
 main .menu .item td .product .details {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
+  align-items: stretch;
+  gap: 1.5rem;
   width: 85%;
 }
 
@@ -192,8 +192,8 @@ main .menu .item td .product .details .text-wrapper h3, p {
 
 main .menu .item td .product .details img {
   aspect-ratio: 1;
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   border-radius: 1rem;
 }
