@@ -169,6 +169,7 @@ main .menu .item td .product {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 main .menu .item td .product .price {
