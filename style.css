@@ -213,6 +213,12 @@ main .order {
   flex-direction: column;
 }
 
+main .order {
+  color: #1C1F21;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-semibold);
+}
+
 main .order form {
   display: flex;
   flex-direction: column;
