@@ -21,6 +21,14 @@
   --font-black: 900;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a:visited, a:link {
+  color: #1C1F21;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #E7E5DF;
@@ -47,10 +55,6 @@ header hr {
   color: #1C1F21;
   background-color: #1C1F21;
   opacity: 15%;
-}
-
-header a:visited {
-  color: #1C1F21;
 }
 
 .header-logo {
@@ -133,7 +137,7 @@ main .menu {
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  margin: 2rem 0 8rem 0;
+  margin: 2rem 0 6rem 0;
 }
 
 main .menu .item {
@@ -211,6 +215,57 @@ main .order {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 6rem;
+}
+
+main .order {
+  color: #1C1F21;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-semibold);
+}
+
+main .order form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main .order form input, textarea {
+  background-color: #E7E5DF;
+  border: 0.125rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5rem;
+  width: 57.5rem;
+  padding: 0.5rem;
+}
+
+main .order form input {
+  height: 2.25rem;
+}
+
+main .order form textarea {
+  height: 8.5rem;
+}
+
+main .order form button {
+  height: 3.5rem;
+  width: 11rem;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-weight: var(--font-bold);
+  background-color: #1C1F21;
+  color: #E7E5DF;
+  transition: 0.15s;
+  font-size: var(--text-base);
+}
+
+main .order form button:hover {
+  background-color: #1c1f2169;
+  color: #1c1f21bf;
 }
 
 footer {
