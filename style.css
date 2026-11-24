@@ -213,6 +213,14 @@ main .order {
   flex-direction: column;
 }
 
+main .order form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
 footer {
   padding: 0.75rem 4rem;
   color: #1C1F21;
