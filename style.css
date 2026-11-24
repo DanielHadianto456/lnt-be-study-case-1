@@ -25,6 +25,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a:visited, a:link {
+  color: #1C1F21;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #E7E5DF;
@@ -51,10 +55,6 @@ header hr {
   color: #1C1F21;
   background-color: #1C1F21;
   opacity: 15%;
-}
-
-header a:visited {
-  color: #1C1F21;
 }
 
 .header-logo {
