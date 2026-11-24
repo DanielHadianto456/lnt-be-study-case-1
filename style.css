@@ -211,6 +211,7 @@ main .order {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 main .order {
