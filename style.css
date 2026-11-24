@@ -234,16 +234,16 @@ main .order form input, textarea {
   border-style: solid;
   border-color: black;
   border-radius: 0.5rem;
-  width: 45vw;
+  width: 57.5rem;
   padding: 0.5rem;
 }
 
 main .order form input {
-  height: 4vh;
+  height: 2.25rem;
 }
 
 main .order form textarea {
-  height: 12.5vh;
+  height: 8.5rem;
 }
 
 footer {
