@@ -246,6 +246,24 @@ main .order form textarea {
   height: 8.5rem;
 }
 
+main .order form button {
+  height: 3.5rem;
+  width: 11rem;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-weight: var(--font-bold);
+  background-color: #1C1F21;
+  color: #E7E5DF;
+  transition: 0.15s;
+  font-size: var(--text-base);
+}
+
+main .order form button:hover {
+  background-color: #1c1f2169;
+  color: #1c1f21bf;
+}
+
 footer {
   padding: 0.75rem 4rem;
   color: #1C1F21;
