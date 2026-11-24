@@ -21,6 +21,10 @@
   --font-black: 900;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #E7E5DF;
