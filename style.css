@@ -221,6 +221,24 @@ main .order form {
   gap: 2rem;
 }
 
+main .order form input, textarea {
+  background-color: #E7E5DF;
+  border: 0.125rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5rem;
+  width: 45vw;
+  padding: 0.5rem;
+}
+
+main .order form input {
+  height: 4vh;
+}
+
+main .order form textarea {
+  height: 12.5vh;
+}
+
 footer {
   padding: 0.75rem 4rem;
   color: #1C1F21;
